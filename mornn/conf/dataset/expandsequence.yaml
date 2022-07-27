@@ -1,0 +1,10 @@
+# @package _group_
+---
+name: 'expandsequence'
+input_dim: 5
+output_dim: 5
+seq_len: 15
+random_seed: 2345 # not used 
+n_train: 500000
+n_val: 10000
+n_test: 10000

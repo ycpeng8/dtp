@@ -1,0 +1,24 @@
+---
+defaults: 
+  - dataset: copymemory
+  - method: targetprop 
+
+# model config
+hidden_dim: 128
+actv_fn: 'tanh'
+
+# training config
+device: '0'
+batch_size: 20
+log_interval: 1
+val_interval: 500
+g_only_before_this: 1000 
+
+# training logger information
+use_neptune_logger: false
+neptune_project: 'peterpdai/test'
+neptune_exp:
+  name: 'training_rnn_pl'
+  upload_files:
+    - '*.py'
+    - 'conf/*/*'

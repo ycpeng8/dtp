@@ -1,0 +1,10 @@
+# @package _group_
+---
+name: 'copymemory'
+input_dim: 10
+output_dim: 10
+seq_len: 15
+random_seed: 1234 # not used 
+n_train: 500000
+n_val: 10000
+n_test: 10000
