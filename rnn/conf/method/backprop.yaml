@@ -1,0 +1,8 @@
+# @package _group_
+---
+name: 'backprop'
+opt_bp:
+  name: 'adam' # for now, open support adam 
+  lr: 0.001
+  beta1: 0.9
+  beta2: 0.999

@@ -1,0 +1,14 @@
+# @package _group_
+---
+name: 'targetprop'
+lr_i: 0.05
+opt_f:
+  name: 'adam'
+  lr: 0.0005
+  beta1: 0.9
+  beta2: 0.999
+opt_g:
+  name: 'adam'
+  lr: 0.005
+  beta1: 0.9
+  beta2: 0.999
