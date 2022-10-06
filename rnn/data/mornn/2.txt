@@ -1,0 +1,46 @@
+# @package _group_
+---
+name: 'targetprop'
+lr_i: 0.05
+opt_f:
+  name: 'adam'
+  lr: 0.0008
+  beta1: 0.9
+  beta2: 0.999
+opt_g:
+  name: 'adam'
+  lr: 0.008
+  beta1: 0.9
+  beta2: 0.999
+
+Step  500 || f_train_loss: 0.00000000 g_train_loss: 0.02275109  || val_loss: 2.35296059   val_acc: 0.00000000
+Step 1000 || f_train_loss: 0.00000000 g_train_loss: 0.02227812  || val_loss: 2.35296059   val_acc: 0.00000000
+Step 1500 || f_train_loss: 0.00025646 g_train_loss: 0.00667318  || val_loss: 1.00708318   val_acc: 0.00000000
+Step 2000 || f_train_loss: 0.00011089 g_train_loss: 0.00982739  || val_loss: 0.85525799   val_acc: 0.00000000
+Step 2500 || f_train_loss: 0.00004247 g_train_loss: 0.01325461  || val_loss: 0.61863619   val_acc: 0.00020000
+Step 3000 || f_train_loss: 0.00002519 g_train_loss: 0.01759002  || val_loss: 0.35778621   val_acc: 0.05290001
+Step 3500 || f_train_loss: 0.00001894 g_train_loss: 0.02368928  || val_loss: 0.21554998   val_acc: 0.22670002
+Step 4000 || f_train_loss: 0.00001382 g_train_loss: 0.02792450  || val_loss: 0.14575662   val_acc: 0.37950003
+Step 4500 || f_train_loss: 0.00001108 g_train_loss: 0.03254715  || val_loss: 0.09763743   val_acc: 0.55419999
+Step 5000 || f_train_loss: 0.00001091 g_train_loss: 0.03773491  || val_loss: 0.07055821   val_acc: 0.65970004
+Step 5500 || f_train_loss: 0.00000690 g_train_loss: 0.03885006  || val_loss: 0.05289818   val_acc: 0.73700005
+Step 6000 || f_train_loss: 0.00000376 g_train_loss: 0.04059792  || val_loss: 0.03727885   val_acc: 0.82310003
+Step 6500 || f_train_loss: 0.00000195 g_train_loss: 0.04473758  || val_loss: 0.02549336   val_acc: 0.88380009
+Step 7000 || f_train_loss: 0.00000340 g_train_loss: 0.04573159  || val_loss: 0.01852160   val_acc: 0.91790009
+Step 7500 || f_train_loss: 0.00000494 g_train_loss: 0.04749030  || val_loss: 0.01363331   val_acc: 0.94020003
+Step 8000 || f_train_loss: 0.00000295 g_train_loss: 0.04989177  || val_loss: 0.01041199   val_acc: 0.95330012
+Step 8500 || f_train_loss: 0.00000169 g_train_loss: 0.05236263  || val_loss: 0.00845184   val_acc: 0.96180010
+Step 9000 || f_train_loss: 0.00000154 g_train_loss: 0.05357980  || val_loss: 0.00686313   val_acc: 0.96870005
+Step 9500 || f_train_loss: 0.00000244 g_train_loss: 0.05542713  || val_loss: 0.00624603   val_acc: 0.96720004
+Step 10000 || f_train_loss: 0.00000557 g_train_loss: 0.05700081  || val_loss: 0.00503467   val_acc: 0.97210002
+Step 10500 || f_train_loss: 0.00000097 g_train_loss: 0.05987058  || val_loss: 0.00488135   val_acc: 0.97440004
+Step 11000 || f_train_loss: 0.00000051 g_train_loss: 0.06131604  || val_loss: 0.00454760   val_acc: 0.97210002
+Step 11500 || f_train_loss: 0.00000033 g_train_loss: 0.06241984  || val_loss: 0.00582338   val_acc: 0.96140009
+Step 12000 || f_train_loss: 0.00000306 g_train_loss: 0.06993385  || val_loss: 0.00535312   val_acc: 0.96170008
+Step 12500 || f_train_loss: 0.00000579 g_train_loss: 0.08171871  || val_loss: 0.03575622   val_acc: 0.73770005
+Step 13000 || f_train_loss: 0.00053522 g_train_loss: 0.17972110  || val_loss: 0.89306962   val_acc: 0.00000000
+Step 13500 || f_train_loss: 0.00050846 g_train_loss: 0.26778626  || val_loss: 1.01050353   val_acc: 0.00000000
+Step 14000 || f_train_loss: 0.00033153 g_train_loss: 0.31759581  || val_loss: 1.03265846   val_acc: 0.00000000
+Step 14500 || f_train_loss: 0.00019944 g_train_loss: 0.33802119  || val_loss: 0.92295426   val_acc: 0.00000000
+Step 15000 || f_train_loss: 0.00024785 g_train_loss: 0.25000602  || val_loss: 0.84201336   val_acc: 0.00000000
+Step 15500 || f_train_loss: 0.00037281 g_train_loss: 0.30115327  || val_loss: 0.96342242   val_acc: 0.00000000
